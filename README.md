@@ -1,26 +1,92 @@
-🏭 CeyCoir-Company
+# 🏭 CeyCoir-Company
+
+> A Full-Stack Coir Industry Management System  
+> Built with **MongoDB, Express.js, React, Node.js** (MERN Stack)
+
+---
+
+## 📦 Project Overview
+
+**CeyCoir-Company** is an integrated web-based management platform designed to streamline and automate the operations of a coir-based manufacturing company. This full-stack application provides essential modules to manage employees, inventory, machines, finances, orders, and more — all through an intuitive dashboard.
+
+---
+
+## 🧩 Core Modules
+
+- 👥 **User & Employee Management**  
+  Manage employee profiles, user roles, and permission levels.
+
+- 🚚 **Delivery & Order Management**  
+  Track customer orders, delivery statuses, and requests in real time.
+
+- 🏭 **Product & Machinery Management**  
+  View, add, update, and delete product listings and machine records. Monitor machine usage and maintenance.
+
+- 💰 **Financial Management**  
+  Record transactions, manage budgets, and visualize financial analytics.
+
+- 🏢 **Warehouse Management**  
+  Monitor inventory, stock movement, and raw material levels.
+
+---
+
+## 🔧 My Contribution
+
+I developed the **Product & Machinery Management** module. My responsibilities included:
+
+- 💻 Creating dynamic forms and CRUD functionality for machines/products  
+- 🐞 Resolving bugs and performance bottlenecks  
+- 🚀 Optimizing module-level components for responsiveness and speed  
+
+📂 You can view my complete implementation in the `bugfix` branch of our team repo.
+
+---
+
+## 💻 Tech Stack
+
+| Tech           | Description                   |
+|----------------|-------------------------------|
+| MongoDB        | Database                      |
+| Express.js     | Backend Framework             |
+| React          | Frontend Framework (UI)       |
+| Node.js        | Runtime Environment           |
+| Tailwind CSS   | Styling                       |
+| Git & GitHub   | Version Control & Collaboration |
+
+---
+
+## 🚀 How to Run the Project (Local Setup)
+
+> **Note:** This project does not include user authentication.
+
+### 📁 Clone the Repository
+
+ 
+git clone https://github.com/dewmirajapakshe/Cey-coir-company.git
+cd Cey-coir-company
 
 
-  📦 Project Overview
-CeyCoir-Company is a full-stack web application built using the powerful MERN stack —
-MongoDB, Express.js, React, and Node.js — to simplify and streamline business operations for a coir-based manufacturing company.
+📂 Install Backend Dependencies
+bash
+Copy
+Edit
+cd backend
+npm install
+npm start
+Backend will run at: http://localhost:5000
 
-The system is modular and includes the following core features:
+🌐 Install Frontend Dependencies
+bash
+Copy
+Edit
+cd ../frontend
+npm install
+npm start
+Frontend will run at: http://localhost:3000
 
-👥 User & Employee Management – Manage staff records, roles, and access.
+🔗 Repository Links
+🧑‍🤝‍🧑 Team Collaboration Branch (bugfix)
+[View on GitHub](https://github.com/Lithira-Sasmitha/ITP/tree/bugfix)
 
-🚚 Delivery & Order Management – Track orders, deliveries, and customer requests.
-
-🏭 Product & Machinery Management – Oversee product info and machine usage.
-
-💰 Financial Management – Handle budgets, transactions, and analytics.
-
-🏢 Warehouse Management – Monitor inventory and raw material flow.
-
-🔧 My Contribution
-I was responsible for the Product & Machinery Management module.
-My contributions include developing core functionalities, resolving bugs, and enhancing the performance of this module.
-
-📂 You can find my full implementation and bug fixes in the bugfix branch of the ITP repository available on my GitHub.
-
-🔗 Explore the code and contributions: Visit the repo
+🙋‍♀️ My Final Project Repository
+[View on GitHub](https://github.com/dewmirajapakshe/Cey-coir-company)
